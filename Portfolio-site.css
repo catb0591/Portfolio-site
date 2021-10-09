@@ -1,5 +1,6 @@
 .Main_Title {
     color: darkviolet;
+    font-size: x-large;
 }
 
 
@@ -9,12 +10,11 @@ font-family: "Comic Sans MS", cursive, sans-serif;
 font-size: 20px;
 color: black;
 text-align: center;
-
+padding: 5px 50px;
+Margin: 50px 80px 50px 80px;
 }
 
-
-
-.Professional_Profiles {
-
-    
+.Professional_Profile {
+word-spacing: 0px;
+margin:50px 0px;
 }
