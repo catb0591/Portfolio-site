@@ -9,44 +9,103 @@
     <title>Cat's Portfolio</title>
 </head>
 
-<body>
-
-    <div class="Main_Title">
-        <h1 style="text-align: center;"> Catherine (Cat🐱) Becerra</h1>
-    </div>
-
-
-    <div class="About_me">
-        <h2>About Me:</h2>
-        <p>I am a recent graduate from Worcester State University with a degree in Business Administration.
-            I currently work for a local credit union where I oversee the Mortgage System Administrators. I have
-            developed a new found passion for technology through this role. I am harnesing that passion currently
-            by partaking in a 20 week bootcamp regarding coding. Hoping to take that passion and apply with the
-            knowledge I will be gaining to break into the web development space. </p>
-    </div>
-
-    <div class="Skills">
-        <h3>Skills:</h3>
+<body class="body">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
         <ul>
-            <li>Proficient in Excel</li>
-            <li>Troubleshooting</li>
-            <li>Scrum Methodology</li>
-            <li>Jira</li>
-            <li>HTML</li>
-            <li>CSS</li>
+            <div class="menu">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
         </ul>
+    </nav>
 
-    </div>
+    <!-- About Me Section -->
+    <a id="about-me">
+        <div class="Main_Title">
+            <h1> Catherine (Cat🐱) Becerra</h1>
+        </div>
+        <div class="float-about-me">
+            <div class="float-profesional-photo">
+                <img src="..\Catherine-15.jpg" height="375">
+            </div>
+            <div class="float-about-me-content">
+                I am a recent graduate from Worcester State University with a degree in Business Administration.
+                I currently work for a local credit union where I oversee the Mortgage System Administrators. I have
+                developed a new found passion for technology through this role. I am harnesing that passion currently
+                by partaking in a 20 week bootcamp regarding coding. Hoping to take that passion and apply it with the
+                knowledge I will be gaining to break into the web development space.
+            </div>
+        </div>
+    </a>
 
-    <div class="Professional_Profile">
-        <h3> Professional Profiles</h3>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
-            width="30" height="30">
-        <a href="www.linkedin.com/in/catbecerra">Linkedin</a>
-        <img src="https://pngimg.com/uploads/github/github_PNG40.png" width="40" height="40">
-        <a href="https://github.com/catb0591"> GitHub</a>
-        </p>
-    </div>
+    <!-- Projects Section -->
+    <a id="projects">
+        <div class="project-title">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="web-calculator">
+                    <h3>Web Calculator</h3>
+                    <a href="../Calculator/web-calculator/index.html">
+                        <img src="../Web Calc Img.PNG">
+                    </a>
+                </div>
+                <div class="project2">
+                    <h3>Project #2</h3>
+
+                </div>
+                <div class="project3">
+                    <h3>Project #3</h3>
+
+                </div>
+            </div>
+        </div>
+    </a>
+
+    <!-- Skills section -->
+    <a id="skills">
+        <div class="Skills">
+            <p>
+            <h3>Skills:</h3>
+            <ul>
+                <li>Proficient in Excel</li>
+                <li>Troubleshooting</li>
+                <li>Scrum Methodology</li>
+                <li>Jira</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>JavaScript</li>
+            </ul>
+            </p>
+        </div>
+    </a>
+
+    <!-- Resume Section -->
+    <a id="resume">
+        <div class="resume">
+            <h2>Resume</h2>
+            <iframe src="../Resume.pdf#toolbar=0" height="840" width="100%"></iframe>
+        </div>
+    </a>
+
+
+    <!-- Contacts Section -->
+    <a id="contact">
+        <div class="Professional_Profile">
+            <h3> Professional Profiles</h3>
+            <a href="https://www.linkedin.com/in/catbecerra/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"
+                    width="30" height="30"></a>
+            <a href="https://github.com/catb0591">
+                <img src="https://pngimg.com/uploads/github/github_PNG40.png" width="40" height="40"></a>
+            </p>
+        </div>
+    </a>
 
 </body>
 
